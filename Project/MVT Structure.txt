@@ -1,0 +1,42 @@
+your_project/
+│
+├── app/                   
+│   ├── __init__.py   
+│   ├── config.py      
+│   ├── models.py
+│   │
+│   ├── products/           
+│   │   ├── __init__.py    
+│   │   ├── routes.py      
+│   │   ├── templates/     
+│   │   │   └── products/
+│   │   │       └── list.html
+│   │   └── static/        
+│   │       └── products/
+│   │           └── products.css
+│   │
+│   ├── auth/              
+│   │   ├── routes.py 
+│   │
+│   ├── users/              
+│   │   ├── __init__.py    
+│   │   ├── routes.py      
+│   │   ├── templates/     
+│   │   │   └── users/
+│   │   │       └── profile.html
+│   │   └── static/        
+│   │       └── users/
+│   │           └── users.css
+│   │
+│   ├── templates/         
+│   │   └── layout.html    
+│   └── static/            
+│       └── style.css      
+│
+├── venv/                               
+│
+├── app.py                 
+│
+├── requirements.txt       
+│
+└── README.md   
